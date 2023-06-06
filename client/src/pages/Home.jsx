@@ -6,7 +6,7 @@ import AddBookForm from '../components/AddBookForm';
 const Home = () => {
   return (
     <Grid container>
-      <Grid item xs={6}>
+      <Grid item>
         <div className="home">
           <div className="books">
             <BookDetails />
